@@ -1,14 +1,30 @@
 {
   "cpus": [
-    { "name": "Intel Core i7-12700K", "tdp": 125 },
-    { "name": "Intel Core i5-12400", "tdp": 65 },
-    { "name": "AMD Ryzen 7 5800X", "tdp": 105 },
-    { "name": "AMD Ryzen 9 5900X", "tdp": 105 }
+    { "name": "Intel Core i7-7700K", "tdp": 91 },
+    { "name": "Intel Core i7-8700K", "tdp": 95 },
+    { "name": "Intel Core i9-9900K", "tdp": 95 },
+    { "name": "Intel Core i9-10900K", "tdp": 125 },
+    { "name": "Intel Core i9-11900K", "tdp": 125 },
+    { "name": "Intel Core i9-12900K", "tdp": 125 },
+    { "name": "Intel Core i9-13900K", "tdp": 125 },
+    { "name": "Intel Core i9-14900K", "tdp": 125 },
+    { "name": "AMD Ryzen 7 2700X", "tdp": 105 },
+    { "name": "AMD Ryzen 9 3900X", "tdp": 105 },
+    { "name": "AMD Ryzen 9 5900X", "tdp": 105 },
+    { "name": "AMD Ryzen 9 7950X", "tdp": 170 }
   ],
   "gpus": [
+    { "name": "NVIDIA GTX 1080", "tdp": 180 },
+    { "name": "NVIDIA GTX 1080 Ti", "tdp": 250 },
+    { "name": "NVIDIA RTX 2070", "tdp": 175 },
+    { "name": "NVIDIA RTX 2080 Ti", "tdp": 250 },
     { "name": "NVIDIA RTX 3080", "tdp": 320 },
-    { "name": "NVIDIA RTX 3060", "tdp": 220 },
-    { "name": "AMD RX 6800", "tdp": 250 },
-    { "name": "AMD RX 7900 XT", "tdp": 300 }
+    { "name": "NVIDIA RTX 3090", "tdp": 350 },
+    { "name": "NVIDIA RTX 4080", "tdp": 320 },
+    { "name": "NVIDIA RTX 4090", "tdp": 450 },
+    { "name": "NVIDIA RTX 5090 Ti", "tdp": 500 },
+    { "name": "AMD RX 5700 XT", "tdp": 225 },
+    { "name": "AMD RX 6800 XT", "tdp": 300 },
+    { "name": "AMD RX 7900 XTX", "tdp": 355 }
   ]
 }
