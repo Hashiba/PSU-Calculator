@@ -1,3 +1,25 @@
+// Load parts from JSON
+fetch('parts.json')
+  .then(response => response.json())
+  .then(data => {
+    const cpuSelect = document.getElementById('cpu');
+    const gpuSelect = document.getElementById('gpu');
+
+    data.cpus.forEach(cpu => {
+      const option = document.createElement('option');
+      option.value = cpu.tdp;
+      option.textContent = cpu.name;
+      cpuSelect.appendChild(option);
+    });
+
+    data.gpus.forEach(gpu => {
+      const option = document.createElement('option');
+      option.value = gpu.tdp;
+      option.textContent = gpu.name;
+      gpuSelect.appendChild(option);
+    });
+  });
+
 document.getElementById('psuForm').addEventListener('submit', function(e) {
   e.preventDefault();
 
